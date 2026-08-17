@@ -148,7 +148,7 @@ This guide also exists as a
   #nav(<home>, <ch1>)
 ] <foreword>
 
-#html-page("chapters/registration.html", [Registration])[
+#html-page("registration.html", [Registration])[
   #title()
   #include "chapters/registration.typ"
   #nav(<foreword>, <ch2>)
