@@ -1,4 +1,4 @@
-#import "gfm.typ"
+#import "../gfm.typ"
 
 = Powers of State Government
 
