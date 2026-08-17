@@ -1,3 +1,5 @@
+#import "gfm.typ"
+
 = Powers of State Government
 
 === Sec. 56 - Exemption from the Act
@@ -67,29 +69,25 @@ Should give notice to Registrar. Failing to do so within 6 months will make him 
 
 Notice to the Registrar regarding this election must be given by the minor himself (now a major) or by his authorized agent.
 
-<!-- fact check above points -->>
-
 === Sec. 66–68 and 70 - effects of registration
 
 From sec 58 - 63, we talked about statement, amending statement, notice, and intimation.Such documents recorded/noted in the Register of Firms
 
 - is open to all
-     - *Sec. 66* - pay fee + ?conditions[^sg_conditions] - inspect
+     - *Sec. 66* - pay fee + ?conditions#footnote[State Government determines fees and conditions] - inspect
      - *Sec. 67* - application + fee - will get certified copy of any entry or portion
 - *Sec. 68* - becomes conclusive proof of facts
-- *Sec. 70* - any person who signs any of the above said documents in fraudulent[^fraud] manner.
+- *Sec. 70* - any person who signs any of the above said documents in fraudulent#footnote[Contains any particular, which he knows to be false or does not believe to be true, or containing particular which he knows to be incomplete or does not believe to be complete] manner.
      - imprisonment up to 3 months OR
      - fine OR
      - both
 
-[^s State Government determines fees and conditions]
-
-[^fraud]: Contains any particular, which he knows to be false or does not believe to be true, or containing particular which he knows to be incomplete or does not believe to be complete
 
 === Sec. 69 - effects of non registration
 
-> [!NOTE]
-> Registration of a partnership is optional in India, but Section 69 imposes severe disabilities on unregistered firms, as a result of which firms go for compulsory registration
+#gfm.note[
+Registration of a partnership is optional in India, but Section 69 imposes severe disabilities on unregistered firms, as a result of which firms go for compulsory registration.
+]
 
 The consequences of non-registration of a firm are as under;
 
@@ -105,10 +103,11 @@ A partner cannot sue the firm or any other partner to enforce a right arising fr
 
 The firm cannot sue third parties to enforce a right arising from a contract. 
 
-> [!IMPORTANT]
-> In both case 1 and 2, to sue -
-> 1. Firm must be registered AND
-> 2. the person suing is or has been shown in the Register of Firms as a partner in the firm.
+#gfm.important[
+In both case 1 and 2, to sue -
+1. Firm must be registered AND
+2. the person suing is or has been shown in the Register of Firms as a partner in the firm.
+]
 
 ==== 3. No right to Set-off
 
@@ -124,8 +123,7 @@ The firm must pay the full ₹50,000 to Zayn.
 Now, if Zayn is not paying back the ₹20,000, the firm can't sue him either.
 ]
 
-#block[
-// !NOTE]
+#gfm.note[
 *Exceptions to Section 69:*
 
 The disabilities of non-registration shall *NOT* affect:
