@@ -173,7 +173,7 @@ This guide also exists as a
   #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
   #include "foreword.typ"
-  #include "chapters/chapter-01.typ"
+  #include "chapters/registration.typ"
   #include "chapters/chapter-02.typ"
 ] <book-pdf>
 
