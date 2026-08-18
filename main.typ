@@ -148,11 +148,16 @@ This guide also exists as a
   #nav(<home>, <ch1>)
 ] <foreword>
 
-#html-page("registration.html", [Registration])[
+#html-page("rights-and-liabilities.html", [Rights and Liabilities])[
   #title()
   #include "chapters/rights-and-liabilities.typ"
+  #nav(<ch1>, <ch2>)
+] <rl>
+
+#html-page("registration.html", [Registration])[
+  #title()
   #include "chapters/registration.typ"
-  #nav(<foreword>, <ch2>)
+  #nav(<rl>, <ch2>)
 ] <ch1>
 
 #html-page("chapter-02.html", [Chapter 2])[
