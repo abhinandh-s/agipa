@@ -145,25 +145,44 @@ This guide also exists as a
 
 #html-page("foreword.html", [Foreword])[
   #include "foreword.typ"
-  #nav(<home>, <ch1>)
+  #nav(<home>, <intro>)
 ] <foreword>
+
+#html-page("introduction.html", [Introduction])[
+  #title()
+  // #include "chapters/.typ"
+  #nav(<foreword>, <formation>)
+] <intro>
+
+#html-page("formation.html", [Formation])[
+  #title()
+  // #include "chapters/.typ"
+  #nav(<foreword>, <ch2>)
+] <formation>
 
 #html-page("rights-and-liabilities.html", [Rights and Liabilities])[
   #title()
   #include "chapters/rights-and-liabilities.typ"
-  #nav(<ch1>, <ch2>)
+  #nav(<formation>, <reg>)
 ] <rl>
 
 #html-page("registration.html", [Registration])[
   #title()
   #include "chapters/registration.typ"
   #nav(<rl>, <ch2>)
-] <ch1>
+] <reg>
 
-#html-page("chapter-02.html", [Chapter 2])[
-  #include "chapters/chapter-02.typ"
-  #nav(<ch1>, none)
-] <ch2>
+#html-page("reconstitution.html", [Reconstitution of Firm)[
+  #title()
+  // #include "chapters/.typ"
+  #nav(<foreword>, <ch2>)
+] <rec>
+
+#html-page("dissolution.html", [Dissolution of Firm])[
+  #title()
+  // #include "chapters/dissolution.typ"
+  #nav(<foreword>, none)
+] <dissolution>
 
 #document("ag.pdf", title: [Full Book])[
   #set page(paper: "a4", margin: 2.5cm)
