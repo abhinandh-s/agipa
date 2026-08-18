@@ -1,4 +1,4 @@
-#import "../gfm.typ": *
+#import "../gfm.typ": note
 
 == Treatment of Unsettled Capital [Sec. 37] <37>
 
