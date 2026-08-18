@@ -1,6 +1,6 @@
 #import "../gfm.typ": *
 
-=== Treatment of Unsettled Capital [Sec. 37] <37>
+== Treatment of Unsettled Capital [Sec. 37] <37>
 
 Where a partner had died or cease to be a partner, other partners may continue to carry on the business *without any final settlement* between them and the outgoing partner/representative of the diseased.
 
@@ -14,7 +14,7 @@ In case there were a contract between partners, which gives the continuing partn
 - if such option is exercised - the outgoing partner or represent can't claim the share of profit or 6% interest said above anymore.
 - not exercised/failed to pay on schedule/didn't follow the agreed terms - can claim the share of profit or 6% interest said above.
 
-==== Illustration
+=== Illustration
 
 Net Profit Earned = ₹1,000 \
 Days since he ceased to be a partner = 180 days \
