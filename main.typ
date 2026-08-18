@@ -145,44 +145,38 @@ This guide also exists as a
 
 #html-page("foreword.html", [Foreword])[
   #include "foreword.typ"
-  #nav(<home>, <intro>)
+  #nav(<home>, <introduction>)
 ] <foreword>
 
 #html-page("introduction.html", [Introduction])[
   #title()
-  // #include "chapters/.typ"
-  #nav(<foreword>, <formation>)
-] <intro>
-
-#html-page("formation.html", [Formation])[
-  #title()
-  // #include "chapters/.typ"
-  #nav(<foreword>, <ch2>)
-] <formation>
-
-#html-page("rights-and-liabilities.html", [Rights and Liabilities])[
-  #title()
-  #include "chapters/rights-and-liabilities.typ"
-  #nav(<formation>, <reg>)
-] <rl>
+  #include "chapters/introduction.typ"
+  #nav(<foreword>, <registration>)
+] <introduction>
 
 #html-page("registration.html", [Registration])[
   #title()
   #include "chapters/registration.typ"
-  #nav(<rl>, <ch2>)
-] <reg>
+  #nav(<rl>, <reconstitution>)
+] <registration>
 
-#html-page("reconstitution.html", [Reconstitution of Firm)[
+#html-page("reconstitution.html", [Reconstitution of Firm])[
   #title()
-  // #include "chapters/.typ"
-  #nav(<foreword>, <ch2>)
-] <rec>
+  #include "chapters/reconstitution.typ"
+  #nav(<registration>, <dissolution>)
+] <reconstitution>
 
 #html-page("dissolution.html", [Dissolution of Firm])[
   #title()
-  // #include "chapters/dissolution.typ"
-  #nav(<foreword>, none)
+  #include "chapters/dissolution.typ"
+  #nav(<reconstitution>, <rl>)
 ] <dissolution>
+
+#html-page("rights-and-liabilities.html", [Rights and Liabilities])[
+  #title()
+  #include "chapters/rights-and-liabilities.typ"
+  #nav(<dissolution>, none)
+] <rl>
 
 #document("ag.pdf", title: [Full Book])[
   #set page(paper: "a4", margin: 2.5cm)
@@ -198,9 +192,11 @@ This guide also exists as a
   #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
   #include "foreword.typ"
-  #include "chapters/rights-and-liabilities.typ"
+  #include "chapters/introduction.typ"
   #include "chapters/registration.typ"
-  #include "chapters/chapter-02.typ"
+  #include "chapters/reconstitution.typ"
+  #include "chapters/dissolution.typ"
+  #include "chapters/rights-and-liabilities.typ"
 ] <book-pdf>
 
 // Export these into the output bundle
