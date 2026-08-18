@@ -150,7 +150,7 @@ This guide also exists as a
 
 #html-page("registration.html", [Registration])[
   #title()
-  #include "chapters/37.typ"
+  #include "chapters/rights-and-liabilities.typ"
   #include "chapters/registration.typ"
   #nav(<foreword>, <ch2>)
 ] <ch1>
@@ -174,7 +174,7 @@ This guide also exists as a
   #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
   #include "foreword.typ"
-  #include "chapters/37.typ"
+  #include "chapters/rights-and-liabilities.typ"
   #include "chapters/registration.typ"
   #include "chapters/chapter-02.typ"
 ] <book-pdf>
