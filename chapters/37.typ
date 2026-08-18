@@ -1,3 +1,5 @@
+#import "../gfm.typ": note, tip, warning, important, caution, quote
+
 == Sec. 37
 
 Where a partner had died or cease to be a partner, other partners may continue to carry on the business **without any final settlement** between them and the outgoing partner/representative of the deseased.
