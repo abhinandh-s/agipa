@@ -136,7 +136,6 @@
 #html-page("index.html", [Home])[
   #title()
   #outline(target: heading.where(bookmarked: false, outlined: true))
-  #link(<ch1>)[Go to Chapter 01]
 
 This guide also exists as a
   #link(<book-pdf>)[single PDF].
