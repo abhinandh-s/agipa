@@ -1,7 +1,7 @@
 
 #import "../gfm.typ"
 
-= Rights and Liabilities
+= Registration
 
 === Sec. 56 - Exemption from the Act
 
