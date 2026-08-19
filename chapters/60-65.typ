@@ -5,7 +5,7 @@ On satisfying relevant provision Registrar will amend the entry & files the stat
 #table(
   columns: 4,
   inset: 10pt,
-  align: horizon,
+  align: (center, left, left, left),
   table.header(
     [*Sec.*],[*Business Change*],[*Required action*],           [*who?*],
   ),
