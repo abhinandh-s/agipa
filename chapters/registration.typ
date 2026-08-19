@@ -1,6 +1,7 @@
+
 #import "../gfm.typ"
 
-= Powers of State Government
+= Rights and Liabilities
 
 === Sec. 56 - Exemption from the Act
 
