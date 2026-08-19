@@ -1,6 +1,6 @@
 #import "../gfm.typ": note
 
-#let deed-note = footnote[means the original Partnership deed] <deed>
+#let deed-note = footnote[means the original Partnership deed]
 
 == Dissolution Meaning [Sec. 39] <39>
 
@@ -26,9 +26,9 @@ mere cessation is not equal to dissolution.
 
 Grounds -
 
-1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]<insolvency-41>
+1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]
 
-2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent // @insolvency-41
+2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent
 
 3. On happening of an event that makes it illegal to:
 
