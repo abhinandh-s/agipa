@@ -1,6 +1,6 @@
 #import "../gfm.typ": note
 
-#let deed-note = footnote[means the original Partnership deed]
+#let deed = footnote[means the original Partnership deed]
 
 == Dissolution Meaning [Sec. 39] <39>
 
