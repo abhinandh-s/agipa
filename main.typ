@@ -2,7 +2,8 @@
 #import "layout/assets.typ": bundle-assets
 
 #html-page("index.html", [Home])[
-  #outline(target: heading.where(bookmarked: false, outlined: true))
+  #local-outline()
+  // #outline(target: heading.where(bookmarked: false, outlined: true))
 
   This guide also exists as a #link(<book-pdf>)[single PDF].
   #nav(none, <foreword>)
