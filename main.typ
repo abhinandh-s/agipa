@@ -48,9 +48,9 @@
   #set text(size: 11pt)
 
   #align(center)[
-    #text(24pt, weight: "bold")[Example Book]
+    #text(24pt, weight: "bold")[Indian Partnership Act, 1932]
     #v(1em)
-    A demonstration book built with Typst.
+    Study Note
   ]
   #pagebreak()
   #set heading(numbering: "1.", bookmarked: true)
