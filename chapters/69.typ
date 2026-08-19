@@ -20,7 +20,7 @@ A partner cannot sue the firm or any other partner to enforce a right arising fr
 
 The firm cannot sue third parties to enforce a right arising from a contract. 
 
-#gfm.important[
+#alerts.important[
 In both case 1 and 2, to sue -
 1. Firm must be registered AND
 2. the person suing is or has been shown in the Register of Firms as a partner in the firm.
