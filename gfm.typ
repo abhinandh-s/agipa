@@ -1,21 +1,28 @@
+/// Helper to detect if the compiler target is HTML
+#let _is-html-target() = {
+  "html" in dictionary(std) and target() == "html"
+}
+
 #let github-alert(kind, title, icon-file, accent-color, bg-color, body) = {
-block(
-width: 100%,
-stroke: (left: 4pt + accent-color),
-inset: (x: 1em, top: 0.6em, bottom: 0.8em),
-fill: bg-color,
-radius: (right: 3pt),
-[
-#text(fill: accent-color, weight: "bold")[
-// Injects the alert type (e.g., "gh-alert-note") into the invisible hook
-#html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
-#box(baseline: 0.25em)[#image(icon-file, width: 1.1em, height: 1.1em)]
-#h(0.3em) #title
-]
-#v(0.5em, weak: true)
-#body
-]
-)
+  block(
+    width: 100%,
+    stroke: (left: 4pt + accent-color),
+    inset: (x: 1em, top: 0.6em, bottom: 0.8em),
+    fill: bg-color,
+    radius: (right: 3pt),
+    [
+      #text(fill: accent-color, weight: "bold")[
+        // Conditionally injects the alert type hook ONLY during HTML export
+        #if _is-html-target() {
+          html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
+        }
+        #box(baseline: 0.25em)[#image(icon-file, width: 1.1em, height: 1.1em)]
+        #h(0.3em) #title
+      ]
+      #v(0.5em, weak: true)
+      #body
+    ]
+  )
 }
 
 #let note(body) = github-alert("note", "Note", "/assets/icons/note.svg", rgb("#0969da"), rgb("#0969da1a"), body)
