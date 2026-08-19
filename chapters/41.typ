@@ -1,4 +1,4 @@
-#import "../gfm": note
+#import "../gfm.typ": note
 
 == Compulsory Dissolution [Sec. 41] <41>
 
