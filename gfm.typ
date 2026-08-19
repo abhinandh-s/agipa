@@ -6,13 +6,14 @@
     fill: bg-color,
     radius: (right: 3pt),
     [
-      // Moved outside the text block and changed to a block-level "div"
+      // Invisible hook changed to block-level div for HTML export safety
       #html.elem("div", attrs: (class: "gh-icon-hook gh-alert-" + kind))[]
       
-      // Replaced #v() and #h() with proper margins for flawless HTML and PDF layout
-      #block(margin: (bottom: 0.5em))[
+      // Replaced #v() with a #pad() block for safe vertical spacing
+      #pad(bottom: 0.5em)[
         #text(fill: accent-color, weight: "bold")[
-          #box(baseline: 0.25em, margin: (right: 0.3em))[#image(icon-file, width: 1.1em, height: 1.1em)]#title
+          // Replaced #h() with "inset" on the box for safe horizontal spacing
+          #box(baseline: 0.25em, inset: (right: 0.3em))[#image(icon-file, width: 1.1em, height: 1.1em)]#title
         ]
       ]
       #body
