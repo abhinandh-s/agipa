@@ -4,7 +4,7 @@
 
 Grounds -
 
-1. All partners declared as insolvent #footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.] <insolvency>
+1. All partners declared as insolvent #footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]
 2. All partner except one #footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent
 3. On happening of an event that makes it illegal to:
    - Carry on the business of the firm, OR
