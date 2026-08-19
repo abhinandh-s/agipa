@@ -42,7 +42,7 @@ a:hover {
 }
 
 /* --- Misc Text Elements --- */
-strong { font-weight: 200; }
+/* strong { font-weight: 200; } */
 blockquote {
   margin: 1.5rem 0; padding: 0.5rem 1.5rem;
   border-left: 4px solid var(--ctp-mauve);
