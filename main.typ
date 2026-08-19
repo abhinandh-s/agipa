@@ -48,7 +48,7 @@
     A demonstration book built with Typst.
   ]
   #pagebreak()
-  #set heading(bookmarked: true)
+  #set heading(numbering: "1.", bookmarked: true)
   #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
   #include "foreword.typ"
