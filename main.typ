@@ -1,6 +1,11 @@
 #import "layout/template.typ": html-page, nav
 #import "layout/assets.typ": bundle-assets
 
+#let local-outline() = context {
+  let doc = query(selector(document).before(here())).last()
+  outline(target: selector(heading).within(doc.location()))
+}
+
 #html-page("index.html", [Home])[
   #local-outline()
   // #outline(target: heading.where(bookmarked: false, outlined: true))
@@ -38,11 +43,6 @@
   #include "chapters/rights-and-liabilities.typ"
   #nav(<dissolution>, none)
 ] <rl>
-
-#let local-outline() = context {
-  let doc = query(selector(document).before(here())).last()
-  outline(target: selector(heading).within(doc.location()))
-}
 
 #document("ag.pdf", title: [Full Book])[
   #set page(paper: "a4", margin: 2.5cm)
