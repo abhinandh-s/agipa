@@ -1,11 +1,13 @@
 #import "../gfm.typ": note
 
+#let deed-note = footnote[means the original Partnership deed] <deed>
+
 == Dissolution Meaning [Sec. 39] <39>
 
 End of partnership between all the partners of a firm is called the dissolution of the firm.
 
 #note[
-Dissolution and Winding up are two different concepts. Realization of Assets and paying off liabilities are part of winding up, not of dissolution. Unless, contract#footnote[means the original Partnership deed]<deed-39> says otherwise.
+Dissolution and Winding up are two different concepts. Realization of Assets and paying off liabilities are part of winding up, not of dissolution. Unless, contract #deed says otherwise.
 ]
 
 == Dissolution by agreement [Sec. 40] <40>
@@ -14,7 +16,7 @@ A partnership firm can be dissolved -
 
 1. with the consent of all partners (i.e, unanimous consent)
 
-2. according to a contract @deed-39 between the parties
+2. according to a contract @deed between the parties
 
 === Court Ruling
 
@@ -26,7 +28,7 @@ Grounds -
 
 1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]<insolvency-41>
 
-2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent @insolvency-41
+2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent // @insolvency-41
 
 3. On happening of an event that makes it illegal to:
 
