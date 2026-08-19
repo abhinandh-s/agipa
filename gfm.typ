@@ -1,3 +1,5 @@
+// gfm.typ
+
 #let github-alert(kind, title, icon-file, accent-color, bg-color, body) = {
   block(
     width: 100%,
@@ -6,13 +8,12 @@
     fill: bg-color,
     radius: (right: 3pt),
     [
-      // Invisible hook changed to block-level div for HTML export safety
+      // The paged warning on this element is harmless and will not fail the build
       #html.elem("div", attrs: (class: "gh-icon-hook gh-alert-" + kind))[]
       
-      // Replaced #v() with a #pad() block for safe vertical spacing
-      #pad(bottom: 0.5em)[
+      // Replaced #pad() with an inset block for safe vertical spacing
+      #block(inset: (bottom: 0.5em))[
         #text(fill: accent-color, weight: "bold")[
-          // Replaced #h() with "inset" on the box for safe horizontal spacing
           #box(baseline: 0.25em, inset: (right: 0.3em))[#image(icon-file, width: 1.1em, height: 1.1em)]#title
         ]
       ]
