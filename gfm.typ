@@ -1,25 +1,21 @@
-// gfm.typ
-
 #let github-alert(kind, title, icon-file, accent-color, bg-color, body) = {
-  block(
-    width: 100%,
-    stroke: (left: 4pt + accent-color),
-    inset: (x: 1em, top: 0.6em, bottom: 0.8em),
-    fill: bg-color,
-    radius: (right: 3pt),
-    [
-      // The paged warning on this element is harmless and will not fail the build
-      #html.elem("div", attrs: (class: "gh-icon-hook gh-alert-" + kind))[]
-      
-      // Replaced #pad() with an inset block for safe vertical spacing
-      #block(inset: (bottom: 0.5em))[
-        #text(fill: accent-color, weight: "bold")[
-          #box(baseline: 0.25em, inset: (right: 0.3em))[#image(icon-file, width: 1.1em, height: 1.1em)]#title
-        ]
-      ]
-      #body
-    ]
-  )
+block(
+width: 100%,
+stroke: (left: 4pt + accent-color),
+inset: (x: 1em, top: 0.6em, bottom: 0.8em),
+fill: bg-color,
+radius: (right: 3pt),
+[
+#text(fill: accent-color, weight: "bold")[
+// Injects the alert type (e.g., "gh-alert-note") into the invisible hook
+#html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
+#box(baseline: 0.25em)[#image(icon-file, width: 1.1em, height: 1.1em)]
+#h(0.3em) #title
+]
+#v(0.5em, weak: true)
+#body
+]
+)
 }
 
 #let note(body) = github-alert("note", "Note", "/assets/icons/note.svg", rgb("#0969da"), rgb("#0969da1a"), body)
