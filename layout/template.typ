@@ -56,13 +56,19 @@
   #top-bar-nav
 ]
 
+#let local-outline() = context {
+  let doc = query(selector(document).before(here())).last()
+  outline(target: selector(heading).within(doc.location()))
+}
+
 #let html-page(filename, page-title, body) = {
   document(filename, title: page-title)[
     #theme
     #set heading(numbering: "1.", bookmarked: false)
 
     #html.elem("nav", attrs: (id: "sidebar"))[
-      #outline(target: heading.where(bookmarked: false, outlined: true))
+      #local-outline()
+      // #outline(target: heading.where(bookmarked: false, outlined: true))
     ]
 
     #html.elem("main", attrs: (id: "content"))[
