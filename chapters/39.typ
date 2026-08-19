@@ -5,7 +5,7 @@
 End of partnership between *all the partners* of a firm is called the dissolution of the firm.
 
 #note[
-Dissolution and Winding up are two different concepts.  Realization of Assets and paying off liabilities are part of winding up, not of dissolution. Unless, contract#footnote[means the original Partnership deed]<deed> says otherwise.
+Dissolution and Winding up are two different concepts.  Realization of Assets and paying off liabilities are part of winding up, not of dissolution. Unless, contract#footnote[means the original Partnership deed]<deed-39> says otherwise.
 ]
 
 == Dissolution by agreement [Sec. 40] <40>
@@ -13,7 +13,7 @@ Dissolution and Winding up are two different concepts.  Realization of Assets an
 A partnership firm can be dissolved -
 
 1. with the consent of all partners (i.e, unanimous consent)
-2. according to a contract @deed between the parties
+2. according to a contract @deed-39 between the parties
 
 === Court Ruling
 - mere cessation is not equal to dissolution.
@@ -22,8 +22,8 @@ A partnership firm can be dissolved -
 
 Grounds -
 
-1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]<insolvency>
-2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent @insolvency
+1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]<insolvency-41>
+2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent @insolvency-41
 3. On happening of an event that makes it illegal to:
    - Carry on the business of the firm, OR
    - Carry it on in partnership
