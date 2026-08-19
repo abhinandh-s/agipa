@@ -57,18 +57,3 @@ blockquote {
 }
 
 
-table {
-  display: block;
-  max-width: 100%;
-  overflow-x: auto;
-  border-collapse: collapse; /* Keeps borders looking neat */
-  
-  /* Optional: Enables momentum scrolling on iOS */
-  -webkit-overflow-scrolling: touch; 
-}
-
-/* Optional: Prevent text from wrapping so it actually triggers the scrollbar */
-table th,
-table td {
-  white-space: nowrap;
-}
