@@ -190,5 +190,10 @@ div:has(.gh-alert-caution) { background-color: color-mix(in srgb, var(--ctp-red)
 div:has(.gh-alert-caution) > p:first-child { color: var(--ctp-red); }
 
 /* QUOTE (Uses Subtext/Fg) */
-div:has(.gh-alert-quote) { background-color: color-mix(in srgb, var(--fg) 8%, transparent); border-left-color: var(--ctp-surface1); }
-div:has(.gh-alert-quote) > p:first-child { color: var(--fg); }
+div:has(.gh-alert-quote) {
+  background-color: color-mix(in srgb, var(--fg) 8%, transparent);
+  border-left-color: var(--ctp-surface1);
+}
+div:has(.gh-alert-quote) > p:first-child {
+  color: var(--fg);
+}
