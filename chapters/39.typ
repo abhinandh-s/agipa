@@ -1,4 +1,4 @@
-#import "../gfm": note
+#import "../gfm.typ": note
 
 == Dissolution Meaning [Sec. 39] <39>
 
