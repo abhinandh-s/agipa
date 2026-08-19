@@ -6,13 +6,15 @@
     fill: bg-color,
     radius: (right: 3pt),
     [
-      #text(fill: accent-color, weight: "bold")[
-        // Injects the alert type (e.g., "gh-alert-note") into the invisible hook
-        #html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
-        #box(baseline: 0.25em)[#image(icon-file, width: 1.1em, height: 1.1em)] 
-        #h(0.3em) #title
+      // Moved outside the text block and changed to a block-level "div"
+      #html.elem("div", attrs: (class: "gh-icon-hook gh-alert-" + kind))[]
+      
+      // Replaced #v() and #h() with proper margins for flawless HTML and PDF layout
+      #block(margin: (bottom: 0.5em))[
+        #text(fill: accent-color, weight: "bold")[
+          #box(baseline: 0.25em, margin: (right: 0.3em))[#image(icon-file, width: 1.1em, height: 1.1em)]#title
+        ]
       ]
-      #v(0.5em, weak: true)
       #body
     ]
   )
