@@ -1,8 +1,8 @@
-#import "../gfm.typ"
+#import "@local/ui:0.1.0": alerts
 
 == Effects of Non-Registration [Sec. 69]<69>
 
-#gfm.note[
+#alerts.note[
 Registration of a partnership is optional in India, but Section 69 imposes severe disabilities on unregistered firms, as a result of which firms go for compulsory registration.
 ]
 
@@ -40,7 +40,7 @@ The firm must pay the full ₹50,000 to Zayn.
 Now, if Zayn is not paying back the ₹20,000, the firm can't sue him either.
 ]
 
-#gfm.note[
+#alerts.note[
 *Exceptions to Section 69:*
 
 The disabilities of non-registration shall *NOT* affect:
