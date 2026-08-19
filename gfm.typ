@@ -18,9 +18,10 @@
           html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
         }
         #box(baseline: 0.25em)[#image(icon-file, width: 1.1em, height: 1.1em)]
-        #h(0.3em) #title
+        #context if not _is-html-target() { h(0.3em) }
+        #title
       ]
-      #v(0.5em, weak: true)
+      #context if not _is-html-target() { v(0.5em, weak: true) }
       #body
     ]
   )
