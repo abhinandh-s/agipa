@@ -1,6 +1,3 @@
-
-#import "../gfm.typ"
-
 = Registration
 
 #include "56.typ"
@@ -11,4 +8,3 @@
 #include "66-68_70.typ"
 #include "69.typ"
 #include "72.typ"
-
