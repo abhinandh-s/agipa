@@ -16,7 +16,7 @@ A partnership firm can be dissolved -
 1. with the consent of all partners (i.e, unanimous consent)
 
 
-2. according to a contract @deed between the parties
+2. according to a contract #footnote(<deed>) between the parties
 
 
 
@@ -31,7 +31,7 @@ Grounds -
 1. All partners declared as insolvent#footnote[Insolvency requires adjudication, not just financial trouble, but formal court declaration.]<insolvency>
 
 
-2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent @insolvency
+2. All partner except one#footnote[Why "all except one"? Because partnership requires a minimum of two persons (Section 11)] declared as insolvent #footnote(<insolvent>)
 
 
 3. On happening of an event that makes it illegal to:
