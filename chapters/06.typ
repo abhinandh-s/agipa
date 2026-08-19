@@ -1,4 +1,4 @@
-#import "../gfm.typ": important
+#import "@local/ui:0.1.0": alerts.important
 
 == Determination of Existence of Partnership [Sec. 6] <6>
 
