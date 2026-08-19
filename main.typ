@@ -38,6 +38,11 @@
   #nav(<dissolution>, none)
 ] <rl>
 
+#let local-outline() = context {
+  let doc = query(selector(document).before(here())).last()
+  outline(target: selector(heading).within(doc.location()))
+}
+
 #document("ag.pdf", title: [Full Book])[
   #set page(paper: "a4", margin: 2.5cm)
   #set text(size: 11pt)
@@ -49,7 +54,9 @@
   ]
   #pagebreak()
   #set heading(numbering: "1.", bookmarked: true)
-  #outline(target: heading.where(bookmarked: true, outlined: true))
+  #local-outline()
+  // only work with no numbering 
+  // #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
   #include "foreword.typ"
   #include "chapters/introduction.typ"
