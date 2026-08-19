@@ -3,6 +3,7 @@
   "html" in dictionary(std) and target() == "html"
 }
 
+/// Base component for GitHub-style alerts
 #let github-alert(kind, title, icon-file, accent-color, bg-color, body) = {
   block(
     width: 100%,
@@ -12,7 +13,7 @@
     radius: (right: 3pt),
     [
       #text(fill: accent-color, weight: "bold")[
-        // Conditionally injects the alert type hook ONLY during HTML export
+        // Injects the alert type (e.g., "gh-alert-note") into the invisible hook only for HTML exports
         #if _is-html-target() {
           html.elem("span", attrs: (class: "gh-icon-hook gh-alert-" + kind))[\u{200B}]
         }
@@ -25,6 +26,7 @@
   )
 }
 
+// Public Alert API
 #let note(body) = github-alert("note", "Note", "/assets/icons/note.svg", rgb("#0969da"), rgb("#0969da1a"), body)
 #let tip(body) = github-alert("tip", "Tip", "/assets/icons/tip.svg", rgb("#1a7f37"), rgb("#1a7f371a"), body)
 #let important(body) = github-alert("important", "Important", "/assets/icons/important.svg", rgb("#8250df"), rgb("#8250df1a"), body)
