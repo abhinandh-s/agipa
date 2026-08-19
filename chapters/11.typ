@@ -1,4 +1,4 @@
-#import "../gfm.typ"
+#import "@local/ui:0.1.0": alerts
 
 == Rights and duties of partners [Sec. 11(1)] <11-1>
 
@@ -29,7 +29,7 @@ Change in contract - only by consent(expressed or implied) of all partners.
 [ such partner(seller) will not compete with the firm for a specified period or within specified local limits.],
 )
 
-#gfm.important[
+#alerts.important[
 Agreement valid only if the restrictions imposed are reasonable.
 ]
 
