@@ -47,6 +47,9 @@ jobs:
       - uses: typst-community/setup-typst@v4
       # Now Typst is installed!
       #- run: typst compile main.typ output.pdf # <-- 01 change output name: 
+
+      - name: Get my Typst UI library
+        uses: abhinandh-s/typst-ui-kit@master
      
       - name: Run typst bundle
         run: typst compile main.typ dist --format bundle
