@@ -7,8 +7,7 @@
 }
 
 #html-page("index.html", [Home])[
-  #local-outline()
-  // #outline(target: heading.where(bookmarked: false, outlined: true))
+  #outline(target: heading.where(bookmarked: false, outlined: true))
 
   This guide also exists as a #link(<book-pdf>)[single PDF].
   #nav(none, <foreword>)
@@ -55,7 +54,9 @@
   ]
   #pagebreak()
   #set heading(numbering: "1.", bookmarked: true)
+  #counter(heading).update(0)
   #local-outline()
+  
   // only work with no numbering 
   // #outline(target: heading.where(bookmarked: true, outlined: true))
   #pagebreak()
