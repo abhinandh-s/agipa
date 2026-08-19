@@ -1,4 +1,4 @@
-#import "../gfm.typ": note
+#import "@local/ui:0.1.0": alerts.note
 
 == Dissolution Meaning [Sec. 39] <39>
 
