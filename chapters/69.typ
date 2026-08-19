@@ -1,3 +1,5 @@
+#import "../gfm.typ"
+
 == Effects of Non-Registration [Sec. 69]<69>
 
 #gfm.note[
