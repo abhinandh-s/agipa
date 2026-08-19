@@ -24,13 +24,13 @@ On satisfying relevant provision Registrar will amend the entry & files the stat
 [sent intimation note],                                                        [any partner/agent],                                                                                            
 
 [62 <62>],
-[Partners name/permanent address],
-[sent intimation note],                                                                     [any partner/agent],                                                                                                              
+[Partners name/ permanent address],
+[sent intimation note],                                                                     [any partner/ agent],                                                                                                              
 
 [63 <63>],
 [Constitution of a Firm changes/ Withdrawal of minor],
-[give official notice of such change/dissolution, specifying the date of change/dissolution],
-[incoming/outgoing/continuing partner *and* in case of dissolved firm any person who was partner immediately before dissolution],
+[give official notice of such change/ dissolution, specifying the date of change/ dissolution],
+[incoming/ outgoing/ continuing partner *and* in case of dissolved firm any person who was partner immediately before dissolution],
 
 [64 <64>],
 [Rectification of mistake],
