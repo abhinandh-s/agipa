@@ -17,6 +17,10 @@
 #include "23.typ"
 #include "24.typ"
 #include "25.typ"
-
+#include "26.typ"
+// #include "27.typ"
+// #include "28.typ"
+// #include "29.typ"
+// #include "30.typ"
 #include "36.typ"
 #include "37.typ"
