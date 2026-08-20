@@ -6,7 +6,7 @@ the mutual rights and duties of the partners in the reconstituted firm
   columns: (auto, auto, auto),
   inset: 10pt, align: horizon,
   table.header(
-     [ *scenario* ][ *conditions* ][ *effect* ],
+     [ *scenario* ],[ *conditions* ],[ *effect* ],
   ),
 
 [change in the constitution of a firm], [],
