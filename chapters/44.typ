@@ -1,3 +1,5 @@
+#import "@local/ui:0.1.0": alerts
+
 == Dissolution by the court [Sec. 44] <44>
 
 ​A partner can file a suit in the court to dissolve the firm on any of the following 7 grounds.
@@ -23,8 +25,7 @@ If a partner has become -
 6. The business is practically dead and cannot be carried on except at a continuous loss. 
 7. Any other valid reason where court thinks it is fair to dissolve
 
-#block[
-// note
+#alerts.note[
 In India, land revenue recovery is one of the most powerful way of recovering dues. The court sells the land and recovers the arrear. Additionally, many other laws provides for the same recovery mechanism for cases other than land revenue. Example, recovery of Gratuity amount not paid by employer withing 30 days it has become due, by the Collector.
 ]
 
