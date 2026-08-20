@@ -56,4 +56,9 @@ blockquote {
   max-width: 800px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes unwanted inline bottom spacing */
+}
 
