@@ -67,5 +67,4 @@
   #include "chapters/rights-and-liabilities.typ"
 ] <book-pdf>
 
-
 #asset("favicon.ico", read("/images/favicon.ico", encoding: none))
