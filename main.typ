@@ -5,39 +5,39 @@
   outline(target: selector(heading).within(doc.location()))
 }
 
-#webpage("index.html", [Home])[
+#webpage("index.html", [Home], pdf-path: "ipa.pdf")[
   #outline(target: heading.where(bookmarked: false, outlined: true))
 
   This guide also exists as a #link(<book-pdf>)[single PDF].
   #nav(none, <foreword>)
 ] <home>
 
-#webpage("foreword.html", [Foreword])[
+#webpage("foreword.html", [Foreword], pdf-path: "ipa.pdf")[
   #include "foreword.typ"
   #nav(<home>, <introduction>)
 ] <foreword>
 
-#webpage("introduction.html", [Introduction])[
+#webpage("introduction.html", [Introduction], pdf-path: "ipa.pdf")[
   #include "chapters/introduction.typ"
   #nav(<foreword>, <registration>)
 ] <introduction>
 
-#webpage("registration.html", [Registration])[
+#webpage("registration.html", [Registration], pdf-path: "ipa.pdf")[
   #include "chapters/registration.typ"
   #nav(<rl>, <reconstitution>)
 ] <registration>
 
-#webpage("reconstitution.html", [Reconstitution of Firm])[
+#webpage("reconstitution.html", [Reconstitution of Firm], pdf-path: "ipa.pdf")[
   #include "chapters/reconstitution.typ"
   #nav(<registration>, <dissolution>)
 ] <reconstitution>
 
-#webpage("dissolution.html", [Dissolution of Firm])[
+#webpage("dissolution.html", [Dissolution of Firm], pdf-path: "ipa.pdf")[
   #include "chapters/dissolution.typ"
   #nav(<reconstitution>, <rl>)
 ] <dissolution>
 
-#webpage("rights-and-liabilities.html", [Rights and Liabilities])[
+#webpage("rights-and-liabilities.html", [Rights and Liabilities], pdf-path: "ipa.pdf")[
   #include "chapters/rights-and-liabilities.typ"
   #nav(<dissolution>, none)
 ] <rl>
@@ -66,5 +66,3 @@
   #include "chapters/dissolution.typ"
   #include "chapters/rights-and-liabilities.typ"
 ] <book-pdf>
-
-#bundle-assets()
