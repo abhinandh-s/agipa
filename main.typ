@@ -68,3 +68,4 @@
 ] <book-pdf>
 
 #asset("favicon.ico", read("/images/favicon.ico", encoding: none))
+#asset("favicon.svg", read("/images/favicon.svg", encoding: none))
