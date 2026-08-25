@@ -6,6 +6,8 @@
 }
 
 #webpage("index.html", [Home], pdf-path: "ipa.pdf")[
+  #html.link(rel: "icon", href: "favicon.svg", type: "image/svg+xml")
+#html.link(rel: "icon", href: "favicon.ico", type: "image/x-icon")
   #outline(target: heading.where(bookmarked: false, outlined: true))
 
   This guide also exists as a #link(<book-pdf>)[single PDF].
