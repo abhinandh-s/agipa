@@ -3,9 +3,9 @@
 The liability of the partners will continue for the acts done before the dissolution, even after the dissolution, *until public notice is given* of the dissolution. 
 
 The following partner is not liable for the acts after the date on which he ceases to be a partner(public notice not required)-
-1. Deceased partner / his legal representative/estate;   
-2. Partner adjudicated  insolvent;
-3. Unknown retiring partner (third party didn't know them as partner) 
++ Deceased partner / his legal representative/estate;   
++ Partner adjudicated  insolvent;
++ Unknown retiring partner (third party didn't know them as partner) 
 
 === Court Ruling
 
