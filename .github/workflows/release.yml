@@ -62,7 +62,7 @@ jobs:
 
       - name: Pretty print HTML with Deno
         run: |
-          deno run -A npm:prettier --write "examples/dist/**/*.html"
+          deno run -A npm:prettier --write "dist/**/*.html"
 
 
       - name: List output
