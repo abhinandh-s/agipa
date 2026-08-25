@@ -54,6 +54,17 @@ jobs:
       - name: Run typst bundle
         run: typst compile main.typ dist --format bundle
       
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Pretty print HTML with Deno
+        run: |
+          deno run -A npm:prettier --write "examples/dist/**/*.html"
+
+
       - name: List output
         run: |
           ls
