@@ -1,7 +1,9 @@
+#import "@local/ui:0.1.0": alerts
+
 == Dissolution on the happenings of certain contingencies [Sec. 42] <42>
 
-#block [
-// note
+
+#alerts.note[
 These are default cases, which happens in absence of a contract between partners. The dissolution can be simply avoided by a provision in the partnership deed or by partners conduct.
 ]
 
